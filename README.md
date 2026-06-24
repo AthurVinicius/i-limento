@@ -1,0 +1,1 @@
+lê-se como alimento
