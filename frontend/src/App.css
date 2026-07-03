@@ -31,7 +31,7 @@
 }
 
 .logo span {
-  color: white;
+  color: #ffd600;
 }
 
 .nav-links {
@@ -45,17 +45,18 @@
   align-items: center;
   gap: 0.5rem;
   font-weight: 500;
-  color: var(--text-main);
+  color: black;
   background: var(--background);
   padding: 0.5rem 1rem;
   border-radius: 50px;
-  border: 1px solid var(--border);
+  border: 1px solid white;
+  background-color: #ffffff;
 }
 
 .role-tag {
   font-size: 0.75rem;
   padding: 0.1rem 0.5rem;
-  background-color: var(--primary-light);
+  background-color: black;
   color: var(--primary);
   border-radius: 4px;
   text-transform: uppercase;
@@ -272,7 +273,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid red;
   margin-top: auto;
 }
 
@@ -562,7 +563,7 @@
 
 .menu-item-price {
   font-weight: 700;
-  color: var(--primary);
+  color: black;
 }
 
 /* Cart / Pedido Summary */
@@ -655,7 +656,7 @@
 }
 
 .sidebar-btn:hover, .sidebar-btn.active {
-  background-color: var(--primary-light);
+  background-color: black;
   color: var(--primary);
 }
 
