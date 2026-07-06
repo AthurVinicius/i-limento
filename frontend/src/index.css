@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --primary: #ff5a36;
-  --primary-hover: #e04422;
+  --primary: #ffd600;
+  --primary-hover: #cdac00;
   --primary-light: #ffebf4;
-  --secondary: #0f172a;
+  --secondary: #000000;
   --background: #f8fafc;
   --card-bg: #ffffff;
   --text-main: #1e293b;

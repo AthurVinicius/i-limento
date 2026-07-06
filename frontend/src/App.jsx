@@ -724,7 +724,7 @@ function App() {
                             <span key={cat} className="tag">{cat}</span>
                           ))}
                         </div>
-                        <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--primary)' }}>
+                        <span style={{ fontSize: '0.85rem', fontWeight: 600}}>
                           Ver Cardápio &rarr;
                         </span>
                       </div>
@@ -909,7 +909,7 @@ function App() {
             <aside className="cart-card">
               <div className="cart-title">
                 <span>Meu Pedido</span>
-                <span className="role-tag" style={{ background: 'var(--primary-light)', color: 'var(--primary)' }}>
+                <span className="role-tag" style={{ color: 'var(--primary)' }}>
                   {cart.reduce((sum, item) => sum + item.qty, 0)} itens
                 </span>
               </div>
@@ -967,7 +967,7 @@ function App() {
                 className={`sidebar-btn ${dashActiveTab === 'restaurantes' ? 'active' : ''}`}
                 onClick={() => setDashActiveTab('restaurantes')}
               >
-                🏬 Meus Restaurantes
+                Meus Restaurantes
               </button>
               
               <button 
